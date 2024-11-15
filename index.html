@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyber Tic-Tac-Toe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <div id="board" class="board">
+      <div data-cell class="cell"></div>
+      <div data-cell class="cell"></div>
+      <div data-cell class="cell"></div>
+      <div data-cell class="cell"></div>
+      <div data-cell class="cell"></div>
+      <div data-cell class="cell"></div>
+      <div data-cell class="cell"></div>
+      <div data-cell class="cell"></div>
+      <div data-cell class="cell"></div>
+    </div>
+
+    <div id="winningMessage" class="winning-message">
+      <p id="winningMessageText">Player X Wins!</p>
+      <button id="restartButton">Restart Game</button>
+    </div>
+
+    <div class="scoreboard">
+      <div class="score">
+        <span class="score-title">Player X</span>: <span class="score-X">0</span>
+      </div>
+      <div class="score">
+        <span class="score-title">Player O</span>: <span class="score-O">0</span>
+      </div>
+      <div id="winningStreak" class="winning-streak">Winning Streak: 0</div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
